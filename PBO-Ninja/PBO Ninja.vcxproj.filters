@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Render\Render.cpp" />
+    <ClCompile Include="Render\imgui-1.89.5\imgui.cpp" />
+    <ClCompile Include="Render\imgui-1.89.5\imgui_demo.cpp" />
+    <ClCompile Include="Render\imgui-1.89.5\imgui_draw.cpp" />
+    <ClCompile Include="Render\imgui-1.89.5\imgui_impl_dx11.cpp" />
+    <ClCompile Include="Render\imgui-1.89.5\imgui_impl_win32.cpp" />
+    <ClCompile Include="Render\imgui-1.89.5\imgui_tables.cpp" />
+    <ClCompile Include="Render\imgui-1.89.5\imgui_widgets.cpp" />
+    <ClCompile Include="Render\imgui-1.89.5\imgui_stdlib.cpp" />
+    <ClCompile Include="GUI.cpp" />
+    <ClCompile Include="SDK\QFBank.cpp" />
+    <ClCompile Include="SDK\Engine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Render\Render.hpp" />
+    <ClInclude Include="Render\imgui-1.89.5\imconfig.h" />
+    <ClInclude Include="Render\imgui-1.89.5\imgui.h" />
+    <ClInclude Include="Render\imgui-1.89.5\imgui_impl_dx11.h" />
+    <ClInclude Include="Render\imgui-1.89.5\imgui_impl_win32.h" />
+    <ClInclude Include="Render\imgui-1.89.5\imgui_internal.h" />
+    <ClInclude Include="Render\imgui-1.89.5\imstb_rectpack.h" />
+    <ClInclude Include="Render\imgui-1.89.5\imstb_textedit.h" />
+    <ClInclude Include="Render\imgui-1.89.5\imstb_truetype.h" />
+    <ClInclude Include="Render\imgui-1.89.5\imgui_stdlib.h" />
+    <ClInclude Include="Render\imgui-1.89.5\imgui_single_file.h" />
+    <ClInclude Include="Render\roboto-medium.hpp" />
+    <ClInclude Include="Render\GUI.hpp" />
+    <ClInclude Include="GUI.hpp" />
+    <ClInclude Include="Global.hpp" />
+    <ClInclude Include="SDK\QFBank.hpp" />
+    <ClInclude Include="SDK\Engine.hpp" />
+    <ClInclude Include="Utils.hpp" />
+    <ClInclude Include="Signature.hpp" />
+  </ItemGroup>
+</Project>
